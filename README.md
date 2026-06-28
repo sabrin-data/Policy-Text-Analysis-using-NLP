@@ -1,16 +1,23 @@
 # AI-Assisted Policy Text Analysis
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green)
+![Excel](https://img.shields.io/badge/Excel-Reporting-brightgreen)
+![LLMs](https://img.shields.io/badge/LLMs-AI%20Assisted-purple)
+
+## 📌 Project Overview
 
 This project analyzes sample insurance policy wording data to identify text differences, wording variations, benefit-level changes, and coverage amount changes across policy documents.
 
-The project uses Python and Pandas for data cleaning, text preparation, policy comparison, change classification, visualization, and Excel report generation. Large Language Models (LLMs), such as ChatGPT, were used manually as an AI-assisted tool to summarize key wording differences and create clear reporting notes.
+The project uses **Python**, **Pandas**, **Matplotlib**, and **Excel** for data cleaning, text preparation, policy comparison, change classification, visualization, and report generation.
 
-This project uses sample training data created for analysis purposes and does not contain real customer or confidential policy information.
+Large Language Models (LLMs), such as ChatGPT, were used manually as an AI-assisted tool to summarize key wording differences and create clear reporting notes.
+
+> This project uses sample training data created for analysis purposes and does not contain real customer or confidential policy information.
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 * Clean and organize sample policy wording data
 * Compare old and new versions of policy text
@@ -23,35 +30,38 @@ This project uses sample training data created for analysis purposes and does no
 
 ---
 
-## Dataset
+## 🗂️ Dataset
 
-The dataset contains sample insurance policy records with the following columns:
+The dataset contains sample insurance policy records.
 
-* Policy_ID
-* Policy_Group
-* Version
-* Category
-* Policy_Text
-* Benefit_Level
-* Coverage_Amount
+| Column          | Description                                                        |
+| --------------- | ------------------------------------------------------------------ |
+| Policy_ID       | Unique policy record ID                                            |
+| Policy_Group    | Group used to compare old and new policy versions                  |
+| Version         | Old or New policy version                                          |
+| Category        | Policy category such as Medical, Dental, Vision, or Life Insurance |
+| Policy_Text     | Policy wording text                                                |
+| Benefit_Level   | Benefit level such as Low, Medium, or High                         |
+| Coverage_Amount | Coverage amount value                                              |
 
-Each policy group includes an old and new policy version to allow comparison.
-
----
-
-## Tools Used
-
-* Python
-* Pandas
-* Matplotlib
-* Excel
-* Visual Studio Code
-* Large Language Models (LLMs)
-* AI-assisted text analysis
+Each policy group includes an old and new version to allow comparison.
 
 ---
 
-## Project Structure
+## 🛠️ Tools Used
+
+| Tool               | Purpose                                       |
+| ------------------ | --------------------------------------------- |
+| Python             | Data analysis and processing                  |
+| Pandas             | Data cleaning and comparison                  |
+| Matplotlib         | Data visualization                            |
+| Excel              | Final reporting                               |
+| Visual Studio Code | Development environment                       |
+| LLMs               | AI-assisted summarization and reporting notes |
+
+---
+
+## 📁 Project Structure
 
 ```text
 AI-Assisted-Policy-Text-Analysis/
@@ -71,7 +81,7 @@ AI-Assisted-Policy-Text-Analysis/
 
 ---
 
-## Analysis Steps
+## 🔍 Analysis Workflow
 
 1. Created and loaded sample policy wording data
 2. Cleaned policy text by standardizing text format
@@ -85,7 +95,7 @@ AI-Assisted-Policy-Text-Analysis/
 
 ---
 
-## LLM-Assisted Analysis
+## 🤖 LLM-Assisted Analysis
 
 Large Language Models (LLMs), such as ChatGPT, were used manually as an AI-assisted tool to summarize policy wording differences and generate reporting notes.
 
@@ -110,7 +120,7 @@ Please summarize:
 
 ---
 
-## Visualizations
+## 📊 Visualizations
 
 The notebook includes visualizations for:
 
@@ -122,7 +132,7 @@ These visualizations help summarize the impact of wording and benefit-level chan
 
 ---
 
-## Output
+## 📤 Output
 
 The final output is an Excel report:
 
@@ -132,33 +142,35 @@ outputs/policy_comparison_report.xlsx
 
 The report includes:
 
-* LLM-assisted summary
-* Policy group
-* Category
-* Old and new benefit levels
-* Benefit-level change status
-* Old and new coverage amounts
-* Coverage amount change
-* Added wording
-* Removed wording
-* Old policy text
-* New policy text
-* Change type
+| Output Field         | Description                              |
+| -------------------- | ---------------------------------------- |
+| LLM_Assisted_Summary | AI-assisted summary of the policy change |
+| Policy_Group         | Policy comparison group                  |
+| Category             | Policy category                          |
+| Old_Benefit_Level    | Previous benefit level                   |
+| New_Benefit_Level    | Updated benefit level                    |
+| Coverage_Change      | Difference in coverage amount            |
+| Added_Words          | New wording added                        |
+| Removed_Words        | Wording removed from old policy          |
+| Change_Type          | Major, Moderate, or Minor change         |
 
 ---
 
-## Key Results
+## ✅ Key Results
 
-* Total policies analyzed: 10
-* Total policy groups compared: 5
-* Major changes identified: 5
-* Average coverage change: 1210
+| Metric                       | Value |
+| ---------------------------- | ----: |
+| Total policies analyzed      |    10 |
+| Total policy groups compared |     5 |
+| Major changes identified     |     5 |
+| Average coverage change      |  1210 |
 
 ---
 
-## How to Run the Project
+## ▶️ How to Run the Project
 
 1. Clone or download this repository.
+
 2. Install the required libraries:
 
 ```bash
@@ -172,13 +184,23 @@ notebooks/policy_text_analysis.ipynb
 ```
 
 4. Select a Python environment.
+
 5. Run all cells in order.
+
 6. Review the generated Excel report in the `outputs` folder.
 
 ---
 
-## Project Value
+## 💡 Project Value
 
-This project demonstrates practical data analysis skills, including data cleaning, text analysis, policy comparison, reporting, visualization, and AI-assisted summarization.
+This project demonstrates practical data analysis skills, including:
 
-It is especially relevant for Data Analyst roles involving document comparison, benefit analysis, reporting, and the use of Large Language Models as productivity tools.
+* Data cleaning
+* Text analysis
+* Policy comparison
+* Benefit-level analysis
+* Reporting
+* Visualization
+* AI-assisted summarization
+
+It is especially relevant for **Data Analyst** roles involving document comparison, benefit analysis, reporting, and the use of Large Language Models as productivity tools.
