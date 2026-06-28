@@ -1,0 +1,11 @@
+Policy_ID,Policy_Group,Version,Category,Policy_Text,Benefit_Level,Coverage_Amount
+P001,MED001,Old,Medical,"Covers emergency visits up to $500 and includes basic doctor consultation.",Medium,500
+P002,MED001,New,Medical,"Covers emergency visits up to $750 and includes doctor consultation plus lab tests.",High,750
+P003,DEN001,Old,Dental,"Covers routine dental checkups once per year and basic cleaning.",Low,100
+P004,DEN001,New,Dental,"Covers routine dental checkups twice per year, basic cleaning, and X-ray services.",Medium,250
+P005,VIS001,Old,Vision,"Covers one eye exam per year with partial coverage for prescription glasses.",Medium,150
+P006,VIS001,New,Vision,"Covers one eye exam per year with full coverage for prescription glasses up to $300.",High,300
+P007,LIFE001,Old,Life Insurance,"Provides life insurance coverage up to $10000 for eligible employees.",Medium,10000
+P008,LIFE001,New,Life Insurance,"Provides life insurance coverage up to $15000 for eligible employees and includes accidental death benefits.",High,15000
+P009,MED002,Old,Medical,"Covers hospital admission for up to three days and emergency care.",Medium,1000
+P010,MED002,New,Medical,"Covers hospital admission for up to five days, emergency care, and follow-up visits.",High,1500
