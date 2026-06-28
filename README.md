@@ -45,7 +45,7 @@ Each policy group includes an old and new policy version to allow comparison.
 * Pandas
 * Matplotlib
 * Excel
-* Jupyter Notebook
+* Visual Studio Code
 * Large Language Models (LLMs)
 * AI-assisted text analysis
 
@@ -88,8 +88,6 @@ AI-Assisted-Policy-Text-Analysis/
 ## LLM-Assisted Analysis
 
 Large Language Models (LLMs), such as ChatGPT, were used manually as an AI-assisted tool to summarize policy wording differences and generate reporting notes.
-
-No API integration was used in this project.
 
 Prompt used:
 
@@ -167,14 +165,15 @@ The report includes:
 pip install -r requirements.txt
 ```
 
-3. Open the notebook:
+3. Open the analysis notebook in Visual Studio Code:
 
 ```text
 notebooks/policy_text_analysis.ipynb
 ```
 
-4. Run all cells in order.
-5. Review the generated Excel report in the `outputs` folder.
+4. Select a Python environment.
+5. Run all cells in order.
+6. Review the generated Excel report in the `outputs` folder.
 
 ---
 
