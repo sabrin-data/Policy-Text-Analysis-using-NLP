@@ -83,3 +83,156 @@ Policy-Text-Analysis-using-NLP/
 │
 ├── README.md
 └── requirements.txt
+```
+
+---
+
+## 🔍 Analysis Workflow
+
+1. Created and loaded sample insurance policy wording data
+2. Cleaned and standardized policy text
+3. Applied basic NLP text preprocessing
+4. Compared old and new policy versions by policy group
+5. Identified added and removed words
+6. Detected benefit-level and coverage amount changes
+7. Classified policy changes by impact level
+8. Used LLM-assisted summaries for reporting notes
+9. Created visualizations to show policy changes
+10. Exported the final analysis into an Excel report
+
+---
+
+## 🤖 NLP and LLM-Assisted Analysis
+
+This project combines basic NLP-style text processing with AI-assisted summarization.
+
+The NLP-related analysis includes:
+
+- Text cleaning and standardization
+- Old vs. new policy text comparison
+- Added and removed word detection
+- Change detection across policy versions
+- Benefit-level and coverage change analysis
+- Structured text findings for reporting
+
+Large Language Models (LLMs), such as ChatGPT, were used manually as an AI-assisted tool to summarize policy wording differences and generate reporting notes.
+
+Prompt used:
+
+```text
+Compare the following two policy wording samples.
+
+Old Policy:
+[Old policy text]
+
+New Policy:
+[New policy text]
+
+Please summarize:
+1. Key wording differences
+2. Added benefits
+3. Removed or changed terms
+4. Benefit-level impact
+5. A short reporting note for a data analyst
+```
+
+---
+
+## 📊 Visualizations
+
+The notebook includes visualizations for:
+
+- Policy changes by change type
+- Coverage amount change by policy group
+- Average coverage change by category
+
+These visualizations help summarize the impact of wording and benefit-level changes across different policy categories.
+
+---
+
+## 📸 Project Screenshots
+
+### Excel Policy Report
+
+![Excel Policy Report](images/Policy_Report.png)
+
+### Coverage Amount Change Visualization
+
+![Coverage Amount Change Visualization](images/Coverage_Visualization.png)
+
+---
+
+## 📤 Output
+
+The final output is an Excel report:
+
+```text
+outputs/policy_comparison_report.xlsx
+```
+
+The report includes:
+
+| Output Field | Description |
+|---|---|
+| LLM_Assisted_Summary | AI-assisted summary of the policy change |
+| Policy_Group | Policy comparison group |
+| Category | Policy category |
+| Old_Benefit_Level | Previous benefit level |
+| New_Benefit_Level | Updated benefit level |
+| Coverage_Change | Difference in coverage amount |
+| Added_Words | New wording added |
+| Removed_Words | Wording removed from old policy |
+| Change_Type | Major, Moderate, or Minor change |
+
+---
+
+## ✅ Key Results
+
+| Metric | Value |
+|---|---:|
+| Total policies analyzed | 10 |
+| Total policy groups compared | 5 |
+| Major changes identified | 5 |
+| Average coverage change | 1,210 |
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download this repository.
+
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the analysis notebook in Visual Studio Code:
+
+```text
+notebooks/policy_text_analysis.ipynb
+```
+
+4. Select a Python environment.
+
+5. Run all cells in order.
+
+6. Review the generated Excel report in the `outputs` folder.
+
+---
+
+## 💡 Project Value
+
+This project demonstrates practical data analysis and text analysis skills, including:
+
+- Data cleaning
+- NLP-based text comparison
+- Text preprocessing
+- Change detection
+- Policy comparison
+- Benefit-level analysis
+- Reporting
+- Visualization
+- AI-assisted summarization
+
+It is especially relevant for **Data Analyst** and entry-level **NLP / AI-assisted analysis** roles involving document comparison, text analysis, reporting, and the use of Large Language Models as productivity tools.
