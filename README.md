@@ -1,4 +1,4 @@
-# AI-Assisted Policy Text Analysis
+# Policy Text Analysis using NLP
 
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green)
